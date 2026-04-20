@@ -1,0 +1,36 @@
+# ── Secrets — NEVER commit these ──────────────────────────────────────────
+.env
+*.env
+env.properties
+config/secrets.*
+
+# ── Build output ───────────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+
+# ── Reports (generated at runtime — too large/noisy for Git) ──────────────
+reports/
+
+# ── Excel scenario files (may contain internal info) ──────────────────────
+# Remove this line if you want to commit your scenarios file
+*.xlsx
+
+# ── IntelliJ IDEA ─────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+*.log
+requests.log
+conversation_log.txt
